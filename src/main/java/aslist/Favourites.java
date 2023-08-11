@@ -21,8 +21,7 @@ public class Favourites {
         System.out.print("Mi a kedvenc ételed? ");
         favouriteThings.add(scanner.nextLine());
 
-        System.out.print("Kedvenceid száma: " + favouriteThings.size());
-        System.out.println();
+        System.out.println("Kedvenceid száma: " + favouriteThings.size());
         System.out.print("Kedvenceid: " + favouriteThings);
     }
 }
