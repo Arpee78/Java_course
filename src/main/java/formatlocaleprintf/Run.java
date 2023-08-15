@@ -15,6 +15,18 @@ public class Run {
         this.name = name;
     }
 
+    public String getFormattedString() {
+        return formattedString;
+    }
+
+    public List<Double> getKms() {
+        return kms;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     public void addRun(double km) {
         kms.add(km);
     }
@@ -26,12 +38,4 @@ public class Run {
         return String.format(formattedString, name, today, runCount, distance);
     }
 
-    public static void main(String[] args) {
-        Run run = new Run("Árpi");
-        run.addRun(10.3);
-        run.addRun(7.8);
-        run.addRun(15.1);
-        run.addRun(3.05);
-        System.out.println(run.printFormattedRunText());
-    }
 }
