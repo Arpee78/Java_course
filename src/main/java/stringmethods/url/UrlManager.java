@@ -69,22 +69,22 @@ public class UrlManager {
     }
 
     private void findProtocolInURL(String url) {
-        protocol = url.substring(0, url.indexOf(":")).toLowerCase();
+        protocol = url.split("://")[0].toLowerCase();
     }
 
     private void findPortInURL(String url) {
-        String portStr = url.substring(protocol.length() + 3);
-        portStr = portStr.split("/")[0];
-        portStr = portStr.split("\\?")[0];
-        if (portStr.contains(":")) {
-            port = Integer.parseInt(portStr.split(":")[1]);
+        String temp = url.split("://")[1];
+        temp = temp.split("/")[0];
+        temp = temp.split("\\?")[0];
+        if (temp.contains(":")) {
+            port = Integer.parseInt(temp.split(":")[1]);
         }
     }
 
     private void findHostInURL(String url) {
         host = url.substring(protocol.length() + 3);
-        host = host.split(":")[0];
         host = host.split("/")[0];
+        host = host.split(":")[0];
         host = host.split("\\?")[0].toLowerCase();
     }
 
