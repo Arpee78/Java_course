@@ -30,6 +30,7 @@ class FileNameManipulatorTest {
     void identifyFilesByExtension() {
         assertTrue(fileNameManipulator.identifyFilesByExtension("exe","thisisafile.exe"));
         assertFalse(fileNameManipulator.identifyFilesByExtension("com","thisisafile.exe"));
+        assertFalse(fileNameManipulator.identifyFilesByExtension("com","thisisafile"));
     }
 
     @Test
