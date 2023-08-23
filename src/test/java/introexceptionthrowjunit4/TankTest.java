@@ -12,6 +12,9 @@ public class TankTest {
     public void modifyAngle() {
         Tank tank = new Tank();
         tank.modifyAngle(60);
+        assertEquals(60, tank.getAngle());
+        tank.modifyAngle(-90);
+        assertEquals(-30, tank.getAngle());
     }
 
     @Test(expected = IllegalArgumentException.class)
