@@ -34,9 +34,6 @@ public class TankTest {
     @Test()
     public void modifyAngleFail3() {
         IllegalArgumentException iae = assertThrows(IllegalArgumentException.class, () -> new Tank().modifyAngle(90));
-        exception.expect(IllegalArgumentException.class);
-        exception.expectMessage("Angle must between -80 and +80!");
-        Tank tank = new Tank();
-        tank.modifyAngle(90);
+        assertEquals("Angle must between -80 and +80!", iae.getMessage());
     }
 }
