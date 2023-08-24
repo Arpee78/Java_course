@@ -21,10 +21,13 @@ public class TrackPoints {
     public void printHeightDifference(List<String> points) {
 
         for (int i = 0; i < points.size()-1; i++) {
-            int pointPrevious = Integer.parseInt(points.get(i).split(";")[2]);
-            int pointNext = Integer.parseInt(points.get(i+1).split(";")[2]);
+            int pointPrevious = getValue(points.get(i));
+            int pointNext = getValue(points.get(i+1));
             System.out.println(pointNext-pointPrevious);
         }
+    }
 
+    private int getValue(String point){
+        return Integer.parseInt(point.split(";")[2]);
     }
 }
