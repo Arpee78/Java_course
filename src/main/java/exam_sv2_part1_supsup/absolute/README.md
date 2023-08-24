@@ -1,0 +1,2 @@
+Tökéletes számnak nevezzük azokat a természetes számokat, amelyek megegyeznek az önmaguknál kisebb osztóik összegével. (Forrás: Wikipédia)
+Készits egy `absolute.Absolute` osztályt, amiben van egy `boolean isAbsolute(int number)` metódus, ami eldönti egy számról, hogy tökéletes szám-e.

@@ -1,0 +1,2 @@
+Készíts egy `everysecond.EverySecond` nevű osztályt. Legyen benne egy `String getEverySecondLetter(String s)` nevű metódus,
+ami visszaadja a paraméterül kapott `String` objektum minden páros indexű karakterét egy új `String` objektumba összefűzve!
