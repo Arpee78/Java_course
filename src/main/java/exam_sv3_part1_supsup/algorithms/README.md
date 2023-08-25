@@ -1,0 +1,2 @@
+Az `algorithms.Algorithms` osztályban írj egy `int greatestCommonDivisor(int firstNumber, int secondNumber)` metódust, mely két számot vár paraméterül és visszaadja a két szám legnagyobb közös osztóját. 
+Azaz azt a számot, ami mindkét paraméterül kapott számot osztja, és ezek közül is a legnagyobb. Vigyázz, akár az egyik szám is lehet a legnagyobb közös osztó. pl.: 3 és 9 legnagyobb közös osztója a 3.
