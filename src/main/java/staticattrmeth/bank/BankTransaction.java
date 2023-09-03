@@ -24,7 +24,7 @@ public class BankTransaction {
             BankTransaction.currentMaxValue = transactionValue;
         } else {
             if (currentMinValue > transactionValue) {
-                BankTransaction. currentMinValue = transactionValue;
+                BankTransaction.currentMinValue = transactionValue;
             }
             if (currentMaxValue < transactionValue) {
                 BankTransaction.currentMaxValue = transactionValue;
