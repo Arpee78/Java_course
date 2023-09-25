@@ -1,0 +1,3 @@
+Adott egy file a `test/resources/goodinput.csv` és a `badinput.csv`, amiben egy ember bevételei találhatók. Egy dátum majd egy összeg. Olvasd be a fájl tartalmát
+a memóriába és dolgozd fel! Olyan osztályokat hozz ehhez létre, hogy a tesztek lefussanak. Figyelj arra, 
+hogy ha a dátumok nem egymás után következnek a fájlban, akkor a feldolgozás során, dobj `IllegalArgumentException`-t a tesztnek megfelelő hibaüzenettel!

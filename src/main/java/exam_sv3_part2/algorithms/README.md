@@ -1,0 +1,2 @@
+Készíts egy `Words` nevű osztályt a megfelelő csomagba, benne egy `int countWordsStartsWithUpperCase(List<String> words)` nevű metódust,
+ami megszámolja azokat a szavakat a listában, amik nagybetűvel kezdődnek.
