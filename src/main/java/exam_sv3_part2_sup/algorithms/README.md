@@ -1,0 +1,2 @@
+Készíts egy `Numbers` nevű osztályt a megfelelő csomagba, benne egy `boolean isPairInListWithSumOf(List<Integer> numbers, int value)` 
+nevű metódust, ami megmondja, hogy a paraméterül kapott listában van-e olyan számpár, aminek összege megegyezik a második paraméterrel!
