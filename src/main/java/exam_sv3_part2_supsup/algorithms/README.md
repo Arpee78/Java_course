@@ -1,0 +1,2 @@
+A `Sentences` osztályban készíts egy `int countEndsWithSentenceEnding(List<String> sentences)` nevű metódust, 
+ami megszámolja, hogy a listában kapott mondatok közül hány végződik mondat végi írásjellel! (".?!")
